@@ -1,0 +1,70 @@
+<?php
+//AUTO NUMBER SECTION
+defined('FIRST_COUNTER_DB')     OR define('FIRST_COUNTER_DB', 100000000);
+
+//OLGA_ATTENDANCE_POINT
+defined('AN_OLGA_01_SEQ')      	OR define('AN_OLGA_01_SEQ', '1');
+defined('AN_OLGA_01_DESC')      OR define('AN_OLGA_01_DESC', 'OLGA_ATTENDANCE_POINT');
+//OLGA_WORKING_CALENDAR
+defined('AN_OLGA_02_SEQ')      	OR define('AN_OLGA_02_SEQ', '2');
+defined('AN_OLGA_02_DESC')      OR define('AN_OLGA_02_DESC', 'OLGA_WORKING_CALENDAR');
+//OLGA_WORKING_CALENDAR_DETAIL
+defined('AN_OLGA_03_SEQ')      	OR define('AN_OLGA_03_SEQ', '3');
+defined('AN_OLGA_03_DESC')      OR define('AN_OLGA_03_DESC', 'OLGA_WORKING_CALENDAR_DETAIL');
+//OLGA_TIME_WORK_SCHEDULE
+defined('AN_OLGA_04_SEQ')      	OR define('AN_OLGA_04_SEQ', '4');
+defined('AN_OLGA_04_DESC')      OR define('AN_OLGA_04_DESC', 'OLGA_TIME_WORK_SCHEDULE');
+//OLGA_TIME_WORK_SCHEDULE_DETAIL
+defined('AN_OLGA_05_SEQ')      	OR define('AN_OLGA_05_SEQ', '5');
+defined('AN_OLGA_05_DESC')      OR define('AN_OLGA_05_DESC','OLGA_TIME_WORK_SCHEDULE_DETAIL');
+//OLGA_NON_SHIFT_CALENDAR
+defined('AN_OLGA_06_SEQ')      	OR define('AN_OLGA_06_SEQ', '6');
+defined('AN_OLGA_06_DESC')      OR define('AN_OLGA_06_DESC','OLGA_NON_SHIFT_CALENDAR');
+//OLGA_EMPLOYEE_SETUP
+defined('AN_OLGA_07_SEQ')      	OR define('AN_OLGA_07_SEQ', '7');
+defined('AN_OLGA_07_DESC')      OR define('AN_OLGA_07_DESC','OLGA_EMPLOYEE_SETUP');
+//OLGA_SHIFT_CALENDAR
+defined('AN_OLGA_08_SEQ')      	OR define('AN_OLGA_08_SEQ', '8');
+defined('AN_OLGA_08_DESC')      OR define('AN_OLGA_08_DESC','OLGA_SHIFT_CALENDAR');
+//OLGA_ABSENT
+defined('AN_OLGA_09_SEQ')      	OR define('AN_OLGA_09_SEQ', '9');
+defined('AN_OLGA_09_DESC')      OR define('AN_OLGA_09_DESC','OLGA_ABSENT');
+//OLGA_ABSENT_LOG
+defined('AN_OLGA_10_SEQ')      	OR define('AN_OLGA_10_SEQ', '10');
+defined('AN_OLGA_10_DESC')      OR define('AN_OLGA_10_DESC','OLGA_ABSENT_LOG');
+//OLGA_PERMISSION_CATEGORY
+defined('AN_OLGA_11_SEQ')      	OR define('AN_OLGA_11_SEQ', '11');
+defined('AN_OLGA_11_DESC')      OR define('AN_OLGA_11_DESC','OLGA_PERMISSION_CATEGORY');
+//OLGA_EMPLOYEE_PERMISSION
+defined('AN_OLGA_12_SEQ')      	OR define('AN_OLGA_12_SEQ', '12');
+defined('AN_OLGA_12_DESC')      OR define('AN_OLGA_12_DESC','OLGA_EMPLOYEE_PERMISSION');
+//OLGA_HISTORY_SHIFT_CALENDAR
+defined('AN_OLGA_13_SEQ')      	OR define('AN_OLGA_13_SEQ', '13');
+defined('AN_OLGA_13_DESC')      OR define('AN_OLGA_13_DESC','OLGA_HISTORY_SHIFT_CALENDAR');
+//OLGA_PERMISSION_TYPE
+defined('AN_OLGA_14_SEQ')      	OR define('AN_OLGA_14_SEQ', '14');
+defined('AN_OLGA_14_DESC')      OR define('AN_OLGA_14_DESC','OLGA_PERMISSION_TYPE');
+//OLGA_ABSENT_HIST_MERGING
+defined('AN_OLGA_15_SEQ')      	OR define('AN_OLGA_15_SEQ', '15');
+defined('AN_OLGA_15_DESC')      OR define('AN_OLGA_15_DESC','OLGA_ABSENT_HIST_MERGING');
+//OLGA_DISTRUPTION
+defined('AN_OLGA_16_SEQ')      	OR define('AN_OLGA_16_SEQ', '16');
+defined('AN_OLGA_16_DESC')      OR define('AN_OLGA_16_DESC','OLGA_DISTRUPTION');
+//OLGA_FAQ
+defined('AN_OLGA_17_SEQ')      	OR define('AN_OLGA_17_SEQ', '17');
+defined('AN_OLGA_17_DESC')      OR define('AN_OLGA_17_DESC','OLGA_FAQ');
+//OLGA_EMPLOYEE_WFH
+defined('AN_OLGA_18_SEQ')      	OR define('AN_OLGA_18_SEQ', '18');
+defined('AN_OLGA_18_DESC')      OR define('AN_OLGA_18_DESC','OLGA_WFH');
+
+
+
+
+
+//SURVEI_JAWABAN
+defined('AN_SURVEI_02_SEQ')      OR define('AN_SURVEI_02_SEQ', '2');
+defined('AN_SURVEI_02_DESC')     OR define('AN_SURVEI_02_DESC','SURVEI_JAWABAN');
+//SURVEI_KUESIONER
+defined('AN_SURVEI_03_SEQ')      OR define('AN_SURVEI_03_SEQ', '3');
+defined('AN_SURVEI_03_DESC')     OR define('AN_SURVEI_03_DESC','SURVEI_KUESIONER');
+?>
